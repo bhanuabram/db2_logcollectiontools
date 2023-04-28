@@ -6,8 +6,8 @@
 # (https://www.ibm.com/docs/en/db2/11.5?topic=commands-db2diag-db2diag-logs-analysis-tool)
 
 # Usage:
-# ./db_diagnostic.sh [date with format YYYY-MM-DD] [start timestamp with format HH.HH] [duration + 2 hours]
-# eg: ./db_diagnostic.sh 2022-12-10 00.00 26
+# ./db2diag_tocapture.sh [date with format YYYY-MM-DD] [start timestamp with format HH.HH] [duration + 2 hours]
+# eg: ./db2diag_tocapture.sh 2022-12-10 00.00 26
 # this command will take db2diag logs starting from 00.00, 10 December 2022 up to 23.59, 11 December 2022.
 
 date=$1
